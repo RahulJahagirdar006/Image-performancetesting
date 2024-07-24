@@ -1,0 +1,23 @@
+{
+  "connectEnd": 1721291523728,
+  "connectStart": 1721291523728,
+  "domComplete": 1721291526182,
+  "domContentLoadedEventEnd": 1721291524999,
+  "domContentLoadedEventStart": 1721291524999,
+  "domInteractive": 1721291524223,
+  "domLoading": 1721291523838,
+  "domainLookupEnd": 1721291523728,
+  "domainLookupStart": 1721291523728,
+  "fetchStart": 1721291523728,
+  "loadEventEnd": 1721291526183,
+  "loadEventStart": 1721291526183,
+  "navigationStart": 1721291523522,
+  "redirectEnd": 1721291523728,
+  "redirectStart": 1721291523523,
+  "requestStart": 1721291523731,
+  "responseEnd": 1721291523863,
+  "responseStart": 1721291523833,
+  "secureConnectionStart": 0,
+  "unloadEventEnd": 0,
+  "unloadEventStart": 0
+}

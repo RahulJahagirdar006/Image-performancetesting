@@ -1,0 +1,4 @@
+{
+  "script": "return (() => {\r\n      return JSON.parse(JSON.stringify(window.performance.timing));\r\n    }).apply(null, arguments)",
+  "args": []
+}

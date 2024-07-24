@@ -1,0 +1,6 @@
+{
+  "script": "return (function scrollToPosition(yPosition) {\n    var htmlNode = document.querySelector('html');\n    var bodyNode = document.querySelector('body');\n    if (htmlNode.scrollHeight > htmlNode.clientHeight) {\n        htmlNode.scrollTop = yPosition;\n        if (htmlNode.scrollTop === yPosition) {\n            return;\n        }\n    }\n    if (bodyNode.scrollHeight > bodyNode.clientHeight) {\n        bodyNode.scrollTop = yPosition;\n        if (bodyNode.scrollTop === yPosition) {\n            return;\n        }\n    }\n    (document.scrollingElement || document.documentElement).scrollTop = yPosition;\n}).apply(null, arguments)",
+  "args": [
+    0
+  ]
+}

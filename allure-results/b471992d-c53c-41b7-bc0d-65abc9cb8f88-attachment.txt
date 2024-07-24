@@ -1,0 +1,10 @@
+{
+  "script": "return (function scrollElementIntoView(element, addressBarShadowPadding) {\n    var currentPosition = 0;\n    var htmlNode = document.querySelector('html');\n    var bodyNode = document.querySelector('body');\n    if (htmlNode.scrollTop > 0) {\n        currentPosition = htmlNode.scrollTop;\n    }\n    if (bodyNode.scrollTop > 0) {\n        currentPosition = bodyNode.scrollTop;\n    }\n    var top = element.getBoundingClientRect().top;\n    var yPosition = top - addressBarShadowPadding;\n    if (htmlNode.scrollHeight > htmlNode.clientHeight) {\n        htmlNode.scrollTop = yPosition;\n        if (htmlNode.scrollTop === yPosition) {\n            return currentPosition;\n        }\n    }\n    if (bodyNode.scrollHeight > bodyNode.clientHeight) {\n        bodyNode.scrollTop = yPosition;\n        if (bodyNode.scrollTop === yPosition) {\n            return currentPosition;\n        }\n    }\n    return currentPosition;\n}).apply(null, arguments)",
+  "args": [
+    {
+      "element-6066-11e4-a52e-4f735466cecf": "f.21A5113A01EC54ED19541AF86157A1AB.d.8F66E135D952AFC9E30E3CC5E807689C.e.293",
+      "ELEMENT": "f.21A5113A01EC54ED19541AF86157A1AB.d.8F66E135D952AFC9E30E3CC5E807689C.e.293"
+    },
+    6
+  ]
+}

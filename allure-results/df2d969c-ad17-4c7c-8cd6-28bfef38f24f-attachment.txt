@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div/h2[@id=\"onetrust-policy-title\" and text()=\"Hello from Polestar\"]\"}\n  (Session info: chrome=126.0.6478.127)",
+  "stacktrace": "\tGetHandleVerifier [0x00007FF7923AEEC2+31554]\n\t(No symbol) [0x00007FF792327EF9]\n\t(No symbol) [0x00007FF7921E872A]\n\t(No symbol) [0x00007FF792238434]\n\t(No symbol) [0x00007FF79223853C]\n\t(No symbol) [0x00007FF79227F6A7]\n\t(No symbol) [0x00007FF79225D06F]\n\t(No symbol) [0x00007FF79227C977]\n\t(No symbol) [0x00007FF79225CDD3]\n\t(No symbol) [0x00007FF79222A33B]\n\t(No symbol) [0x00007FF79222AED1]\n\tGetHandleVerifier [0x00007FF7926B8B5D+3217373]\n\tGetHandleVerifier [0x00007FF792705B23+3532707]\n\tGetHandleVerifier [0x00007FF7926FB120+3489184]\n\tGetHandleVerifier [0x00007FF79245E796+750614]\n\t(No symbol) [0x00007FF79233377F]\n\t(No symbol) [0x00007FF79232EB34]\n\t(No symbol) [0x00007FF79232ECC2]\n\t(No symbol) [0x00007FF79231E18F]\n\tBaseThreadInitThunk [0x00007FFC6073257D+29]\n\tRtlUserThreadStart [0x00007FFC61A6AF28+40]\n"
+}

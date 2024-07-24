@@ -1,0 +1,4 @@
+{
+  "script": "return (() => {\r\n            document.documentElement.lang = 'en';\r\n        }).apply(null, arguments)",
+  "args": []
+}

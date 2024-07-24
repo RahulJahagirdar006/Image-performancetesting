@@ -1,0 +1,9 @@
+{
+  "script": "return ((video) => {\r\n          // Check if the video is currently playing\r\n          if (!video.paused) {\r\n              video.pause();\r\n          }\r\n      }).apply(null, arguments)",
+  "args": [
+    {
+      "element-6066-11e4-a52e-4f735466cecf": "f.5C4FFE037D9A747FA2BE7FC7DBBAE722.d.E160B0A2BDB4AD883C7D03D5335FABFE.e.64",
+      "ELEMENT": "f.5C4FFE037D9A747FA2BE7FC7DBBAE722.d.E160B0A2BDB4AD883C7D03D5335FABFE.e.64"
+    }
+  ]
+}

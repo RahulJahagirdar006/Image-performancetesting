@@ -1,0 +1,9 @@
+{
+    "placeorder": "//div/h2[@id='onetrust-policy-title']",
+    "policyText": "#onetrust-policy-text",
+    "Acceptbutton": "#onetrust-accept-btn-handler",
+    "banner": "#onetrust-group-container",
+    "menuButton": "//button[@title='Menu']",
+    "menu": ".css-cooikl",
+    "menulist": "ul[role='menu'] li"
+}

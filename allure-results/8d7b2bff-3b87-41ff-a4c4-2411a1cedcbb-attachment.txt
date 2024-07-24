@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//nav[@data-type=\"navigation-list\"]//a[contains(@class, \"css-1p7ob8l\")]"
+}

@@ -1,0 +1,25 @@
+{
+  "dimensions": {
+    "body": {
+      "offsetHeight": 5278,
+      "scrollHeight": 5278
+    },
+    "html": {
+      "clientHeight": 651,
+      "clientWidth": 1036,
+      "offsetHeight": 5278,
+      "scrollHeight": 5278,
+      "scrollWidth": 1036
+    },
+    "window": {
+      "devicePixelRatio": 1.25,
+      "innerHeight": 651,
+      "innerWidth": 1036,
+      "isLandscape": true,
+      "outerHeight": 798,
+      "outerWidth": 1051,
+      "screenHeight": 864,
+      "screenWidth": 1536
+    }
+  }
+}

@@ -1,0 +1,5 @@
+// Snapshot v1
+
+exports[`visual regression test > TC004:should be able to perform visual test on text 1`] = `"<p>Volvo Cars has been a leader in automotive safety for decades, caring about the world we live in and the people around us. With our Safe Space Technology which includes all the standard safety features in a Volvo car, we help to keep you safe and make you feel safe.</p>"`;
+
+exports[`visual regression test > TC005:should be able to display the text on terminal 1`] = `"Volvo Cars has been a leader in automotive safety for decades, caring about the world we live in and the people around us. With our Safe Space Technology which includes all the standard safety features in a Volvo car, we help to keep you safe and make you feel safe."`;

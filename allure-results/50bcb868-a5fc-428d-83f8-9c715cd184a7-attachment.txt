@@ -1,0 +1,4 @@
+{
+  "script": "return (() => {\r\n      const image = document.querySelector('img'); // Adjust the selector to target the specific image\r\n      if (image && image.complete) {\r\n        return image.naturalWidth > 0 ? window.performance.now() - window.performance.timing.navigationStart : 0;\r\n      }\r\n      return 0;\r\n    }).apply(null, arguments)",
+  "args": []
+}
